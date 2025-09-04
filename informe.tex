@@ -55,7 +55,7 @@
 \newcommand{\Materia}{Tecnologías Disruptivas}
 \newcommand{\NRC}{8090}
 \newcommand{\Profesor}{Álvaro Sánchez Colmenares}
-\newcommand{\NombreCaso}{Estudio de Caso BEC}
+\newcommand{\NombreCaso}{Caso de estudio — Seguridad en Smart Cities}
 
 % Integrantes ordenados por apellido + correos
 \newcommand{\Integrantes}{%
@@ -111,7 +111,7 @@ Ante este contexto, la ciudad evalúa la adopción de tecnologías propias de la
 
 \section{Definición del problema y alcance}
 
-\subsection*{Problemas prioritarios (resumen)}
+\subsection*{Problemas prioritarios}
 \textbf{P1. Robos en espacio público y comercio de alta afluencia.} La ciudad evidencia un aumento sostenido de delitos contra la propiedad en zonas céntricas y nodos de transporte, afectando a peatones y locales comerciales.
 
 \textbf{P2. Baja integración operativa de cámaras y sensores urbanos.} La infraestructura de videovigilancia y sensorización existe de forma fragmentada, sin interoperabilidad suficiente para detección temprana, trazabilidad ni coordinación de respuesta.
@@ -176,15 +176,188 @@ Ante este contexto, la ciudad evalúa la adopción de tecnologías propias de la
     \item \textit{Salvaguardas}: evaluación de impacto en privacidad, anonimización cuando corresponda, controles de acceso y auditoría, cifrado extremo a extremo, políticas de retención y uso proporcional de la información.
 \end{itemize}
 
-\iffalse
+
+\newpage
+
+\section{Mapa de problemas (Causa - Consecuencias)}
+\subsection*{Problema 1: Robos en vía pública}
+\textbf{Robos en vía pública} en zonas de alta influencia y nodos de transporte, con afectación directa a peatones y comercios. Vease la figura \ref{fig:mapa-problemas-seguridad}
 \begin{figure}[htbp] % usa [H] si quieres fijarla exactamente aquí
   \centering
-  % Ajusta el recorte si lo necesitas con trim=left bottom right top
   \includegraphics[width=\linewidth, keepaspectratio]{ishikawa_p1.png}
   \caption{Diagrama de Ishikawa del problema \textit{Robos en vía pública}.}
-  \label{fig:ishikawa-seguridad}
+  \label{fig:mapa-problemas-seguridad}
 \end{figure}
-\fi
+
+\subsection*{Causas inmediatas}
+\begin{itemize}
+    \item \textit{Fragmentación tecnológica}: Cámaras y sensores heterogéneos, con baja interoperabilidad y flujos manuales.
+    \item \textit{Ceguera situacional}: Analítica de video limitada para detección temprana de eventos y cobertura desigual de sensorización.
+    \item \textit{Procesos reactivos}: Verificación lenta por falta de correlación automática de alertas y evidencias.
+    \item \textit{Infraestructura urbana subóptima}: Iluminación deficiente, mobiliario y arbolado que generan puntos ciegos.
+\end{itemize}
+
+\subsection*{Causa subyacentes}
+\begin{itemize}
+    \item \textit{Estándares y gobierno de datos insuficientes}: ausencia de APIs y protocolos abiertos para intercambio seguro.
+    \item \textit{Capacidades operativas dispares}: roles, turnos y procedimientos no unificados entre vigilancia, monitoreo y despacho.
+    \item \textit{Conectividad irregular}: tramos sin fibra/5G y respaldo eléctrico limitado que afectan la disponibilidad de equipos.
+    \item \textit{Mantenimiento correctivo predominante}: fallas recurrentes y tiempos de reparación prolongados.
+\end{itemize}
+
+\subsection*{Consecuencias}
+\begin{itemize}
+    \item \textit{Impacto ciudadano}: Mayor victimización y disminución de la percepción de seguridad.
+    \item \textit{Ineficiencias operativas}: Respuesta tardía y uso subóptimo de recursos de patrullaje y emergencia.
+    \item \textit{Baja trazabilidad}: Dificultad para esclarecer hechos por carencia de evidencia integrada y cadena de custodia digital.
+    \item \textit{Costos socioeconómicos}: Pérdidas para el comercio local y reducción de actividad en zonas críticas.
+\end{itemize}
+
+\subsection*{Relación causa–efecto (síntesis)}
+\begin{table}[htbp]
+\centering
+\caption{Vinculación de causas con efectos del problema “Robos en vía pública”.}
+\begin{tabular}{p{0.30\linewidth} p{0.36\linewidth} p{0.28\linewidth}}
+\hline
+\textbf{Categoría de causa} & \textbf{Evidencia/manifestación típica} & \textbf{Efecto principal} \\
+\hline
+Tecnología & Heterogeneidad de cámaras/sensores; sin correlación automática & Verificación lenta; baja detección temprana \\
+Métodos & Patrullaje no dirigido por datos; rutas subóptimas & Cobertura reactiva; menor disuasión \\
+Mano de obra & Roles/protocolos no unificados; capacitación desigual & Coordinación limitada en incidentes \\
+Materiales & Iluminación insuficiente; señalética disuasiva escasa & Puntos ciegos y mayor oportunidad delictiva \\
+Medio ambiente & Arbolado/mobiliario obstruyen; flujos peatonales desbalanceados & Zonas de riesgo persistentes \\
+Mediciones & Falta de KPIs operativos; alto nivel de falsas alarmas & Mejora continua limitada \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Indicadores asociados (línea base y metas)}
+\begin{itemize}
+    \item \textbf{Tasa de delitos contra la propiedad} (por 10\,000 hab.) en el polígono piloto: reducción relativa de \(\geq 15\%\) a 12 meses respecto de la línea base.
+    \item \textbf{Tiempo medio de verificación y despacho (TTR)} desde la alerta hasta el envío de recurso: disminución de \(\geq 30\%\).
+    \item \textbf{Disponibilidad de la plataforma integrada} (cámaras, sensores, analítica y tablero): \(\geq 95\%\).
+    \item \textbf{Detección automática de incidentes relevantes} (analítica de video/sensores): \(\geq 60\%\) del total de incidentes registrados.
+    \item \textbf{Tasa de falsas alarmas} (proporción sobre alertas totales): reducción a \(\leq 10\%\) mediante calibración y verificación.
+\end{itemize}
+
+\subsection*{Supuestos críticos}
+\begin{itemize}
+    \item Disponibilidad de conectividad (fibra/5G) y respaldo energético en puntos críticos.
+    \item Acceso legal y seguro a datos para fines de prevención, reacción y trazabilidad, con políticas de minimización y retención.
+    \item Coordinación interinstitucional efectiva para operación 24/7 y mantenimiento preventivo.
+\end{itemize}
+
+
+\subsection*{Problema 2: Baja integración operativa de cámaras y sensores}
+
+\noindent La infraestructura de videovigilancia y sensorización urbana opera de forma fragmentada, con dispositivos heterogéneos y flujos de datos dispares. La ausencia de interoperabilidad y estandarización limita la detección temprana, la trazabilidad de incidentes y la coordinación de la respuesta.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{ishikawa_p2.png} % nombre actualizado
+  \caption{Diagrama de Ishikawa — Problema 2: Baja integración operativa de cámaras y sensores.}
+  \label{fig:ishikawa-p2}
+\end{figure}
+
+\subsection*{Causas inmediatas}
+\begin{itemize}
+    \item \textit{Fragmentación tecnológica}: dispositivos de distintos fabricantes sin adopción consistente de estándares abiertos (p.\,ej., ONVIF, APIs REST).
+    \item \textit{Falta de integración}: inexistencia de un bus/middleware que unifique ingestión, normalización y distribución de eventos.
+    \item \textit{Conectividad y energía irregulares}: enlaces sin redundancia y sin telemetría de salud en tiempo real.
+    \item \textit{Procesos manuales}: verificación y correlación dependientes del operador, con alta variabilidad.
+\end{itemize}
+
+\subsection*{Causas subyacentes}
+\begin{itemize}
+    \item \textit{Gobierno de datos insuficiente}: políticas débiles de calidad, seguridad, retención y auditoría.
+    \item \textit{Contratación por silos}: adquisiciones sin requisitos de interoperabilidad ni pruebas cruzadas.
+    \item \textit{Observabilidad limitada}: carencia de métricas, logs y trazas end-to-end.
+    \item \textit{Mantenimiento correctivo predominante}: inventario y versionamiento desactualizados.
+\end{itemize}
+
+\subsection*{Consecuencias}
+\begin{itemize}
+    \item \textit{Latencia operacional}: tiempos altos de detección y verificación con pérdida de ventanas de intervención.
+    \item \textit{Baja trazabilidad}: dificultades probatorias por registros inconexos y cadena de custodia débil.
+    \item \textit{Uso subóptimo de recursos}: despacho tardío y fatiga de operadores por falsas alarmas.
+\end{itemize}
+
+\subsection*{Relación causa–efecto (síntesis)}
+\begin{table}[htbp]
+\centering
+\caption{Vinculación de causas con efectos del problema “Baja integración operativa”.}
+\begin{tabular}{p{0.30\linewidth} p{0.36\linewidth} p{0.28\linewidth}}
+\hline
+\textbf{Categoría de causa} & \textbf{Evidencia/manifestación típica} & \textbf{Efecto principal} \\
+\hline
+Tecnología & Sistemas heterogéneos, sin perfiles ONVIF ni APIs alineadas & Imposibilidad de correlación; mayor latencia \\
+Métodos & Verificación manual y scripts ad-hoc & Variabilidad operativa; tiempos de respuesta altos \\
+Mano de obra & Capacitación dispar; dependencia del operador & Mayor tasa de error y falsas alarmas \\
+Materiales & Falta de respaldo eléctrico y racks adecuados & Caídas de servicio; pérdida de datos \\
+Medio ambiente & Interferencias/saturación en tramos inalámbricos & Pérdida de paquetes; jitter en video/eventos \\
+Mediciones & Sin KPIs ni telemetría de salud & Mejora continua limitada; fallas no detectadas \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Indicadores asociados (línea base y metas)}
+\begin{itemize}
+    \item \textbf{Cobertura integrada} (\% de cámaras/sensores gestionados desde la plataforma): meta \(\geq 85\%\).
+    \item \textbf{Latencia de ingestión y correlación}: tiempo desde evento a alerta unificada; meta \(\leq 5\) s en críticos.
+    \item \textbf{Incidentes con correlación automática}: proporción con video, georreferencia y recurso vinculado; meta \(\geq 70\%\).
+    \item \textbf{Disponibilidad del servicio de integración}: meta \(\geq 99.5\%\) mensual.
+    \item \textbf{Tasa de falsas alarmas}: meta \(\leq 10\%\).
+\end{itemize}
+
+\subsection*{Supuestos críticos}
+\begin{itemize}
+    \item Disponibilidad de enlaces confiables (fibra/5G) y respaldo energético en sitios críticos.
+    \item Acceso legal a flujos de datos para prevención, reacción y trazabilidad, con principios de minimización y seguridad.
+    \item Inventario técnico actualizado (modelos, firmware, topología) y adopción de estándares de interoperabilidad.
+    \item Coordinación operativa 24/7 y mantenimiento preventivo programado.
+\end{itemize}
+
+
+\section{Ciudad referente}
+
+\subsection*{1. Ciudad estudiada}
+\textbf{Barcelona, España.} Ciudad europea pionera en infraestructura digital urbana, gobierno de datos y despliegues de sensorización y videovigilancia con analítica.
+
+\subsection*{2. Tecnología concreta aplicada}
+Plataforma urbana basada en estándares abiertos (p.~ej., \textit{Sentilo} para IoT) que integra:
+\begin{itemize}
+  \item Red de \textit{CCTV} con cámaras IP y perfiles ONVIF, enlazada a centros de control operativos.
+  \item Sensores urbanos (iluminación telegestionada, aforo, acústica, calidad de aire, botonería de alerta).
+  \item Analítica de video en tiempo real (detección de intrusión/merodeo, objetos abandonados, lectura de placas).
+  \item Tableros operativos y geoespaciales para correlación evento--ubicación--recurso y despacho coordinado.
+  \item Conectividad sobre fibra y redes móviles, con telemetría de salud para garantizar disponibilidad.
+\end{itemize}
+
+\subsection*{3. Resultados medibles reportados}
+\begin{itemize}
+  \item \textit{Operación}: incremento sostenido de disponibilidad de cámaras y reducción de tiempos de reparación al consolidar inventario y mantenimiento preventivo.
+  \item \textit{Respuesta}: disminución de tiempos de verificación y despacho en zonas priorizadas gracias a la correlación automática (video + posición + recurso).
+  \item \textit{Eficiencia energética}: ahorros significativos en alumbrado público por LED y telegestión (del orden de decenas de puntos porcentuales en áreas intervenidas).
+  \item \textit{Investigación}: mayor proporción de incidentes con evidencia audiovisual útil y cadena de custodia digital.
+\end{itemize}
+
+\subsection*{4. Desafíos o riesgos observados}
+\begin{itemize}
+  \item Interoperabilidad y dependencia de proveedores: necesidad de exigir APIs abiertas y pruebas cruzadas.
+  \item Continuidad operativa: vandalismo, energía y tramos con conectividad no redundada.
+  \item Privacidad y ética: tratamiento proporcional de datos personales y mitigación de sesgos algorítmicos.
+  \item Sostenibilidad: costos de mantenimiento/actualización y formación continua de operadores.
+\end{itemize}
+
+\subsection*{Adaptación al caso \textit{Nueva Aurora} (contexto latinoamericano)}
+\begin{itemize}
+  \item \textbf{Polígono piloto y línea base}: seleccionar zonas críticas y medir tasas de delitos, TTR y falsas alarmas previas a la intervención.
+  \item \textbf{Interoperabilidad desde la compra}: requerir perfiles ONVIF, \textit{Sentilo}/APIs abiertas y pruebas de integración en licitaciones.
+  \item \textbf{Middleware y tablero}: priorizar un bus de eventos y un tablero único con correlación video--evento--recurso.
+  \item \textbf{Conectividad y energía}: fibra/5G con QoS y respaldo eléctrico en puntos críticos; telemetría de salud 24/7.
+  \item \textbf{Gobierno de datos}: políticas de minimización, retención, auditoría y evaluación de impacto en privacidad.
+  \item \textbf{Participación ciudadana}: botones de alerta, campañas de uso responsable y mecanismos de transparencia.
+\end{itemize}
 
 
 \end{document}

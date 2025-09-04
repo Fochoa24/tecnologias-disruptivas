@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.21)  3 SEP 2025 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.22)  4 SEP 2025 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/felip/Documents/tecnologias disruptivas/informe.tex"
-(c:/Users/felip/Documents/tecnologias disruptivas/informe.tex
+**c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex
+(c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
 (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -267,11 +267,11 @@ with kernel methods
 \Fld@listcount=\count298
 \c@bookmark@seq@number=\count299
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip80
 )
@@ -742,7 +742,63 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [2{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
-[3] (informe.aux
+[3]
+<figuras/ishikawa_p1.png, id=59, 737.75626pt x 416.30531pt>
+File: figuras/ishikawa_p1.png Graphic file (type png)
+<use figuras/ishikawa_p1.png>
+Package pdftex.def Info: figuras/ishikawa_p1.png  used on input line 187.
+(pdftex.def)             Requested size: 455.24411pt x 256.88698pt.
+
+
+[4 <./figuras/ishikawa_p1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]|\T1/lmr/m/n/12 (+20) Heterogeneidad de cá-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 (+20) ras/sensores; sin co-rre-la-ción
+ []
+
+
+Overfull \hbox (8.68645pt too wide) in paragraph at lines 220--232
+ [][] 
+ []
+
+
+
+[5]
+<figuras/ishikawa_p2.png, id=78, 1445.4pt x 813.0375pt>
+File: figuras/ishikawa_p2.png Graphic file (type png)
+<use figuras/ishikawa_p2.png>
+Package pdftex.def Info: figuras/ishikawa_p2.png  used on input line 257.
+(pdftex.def)             Requested size: 455.24411pt x 256.07095pt.
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[]|\T1/lmr/m/n/12 (+20) Variabilidad ope-ra-ti-va;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+\T1/lmr/m/n/12 (+20) tiem-pos de res-pues-ta
+ []
+
+
+Overfull \hbox (8.68645pt too wide) in paragraph at lines 289--301
+ [][] 
+ []
+
+
+
+[7 <./figuras/ishikawa_p2.png (PNG copy)>]
+
+[8{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+
+[9]
+
+[10] (informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -751,20 +807,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 340A7068157F03F371DC25CF19D79993;223.
+(rerunfilecheck)             Checksum: 1E5AE9D464DD298A96A9BD37E5FD6B2A;618.
  ) 
 Here is how much of TeX's memory you used:
- 26239 strings out of 469941
- 496882 string characters out of 5469430
- 905067 words of memory out of 5000000
- 52502 multiletter control sequences out of 15000+600000
- 686112 words of font info for 122 fonts, out of 8000000 for 9000
+ 26375 strings out of 469941
+ 498980 string characters out of 5469430
+ 909321 words of memory out of 5000000
+ 52538 multiletter control sequences out of 15000+600000
+ 693904 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,1055b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on informe.pdf (4 pages, 176559 bytes).
+ 102i,11n,107p,1069b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on informe.pdf (11 pages, 443015 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 33301 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 35375 words of extra memory for PDF output out of 35830 (max. 10000000)
 
