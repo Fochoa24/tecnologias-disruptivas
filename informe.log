@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.22)  4 SEP 2025 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.22)  4 SEP 2025 13:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -743,7 +743,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [2{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
 [3]
-<figuras/ishikawa_p1.png, id=59, 737.75626pt x 416.30531pt>
+<figuras/ishikawa_p1.png, id=71, 737.75626pt x 416.30531pt>
 File: figuras/ishikawa_p1.png Graphic file (type png)
 <use figuras/ishikawa_p1.png>
 Package pdftex.def Info: figuras/ishikawa_p1.png  used on input line 187.
@@ -768,7 +768,7 @@ Overfull \hbox (8.68645pt too wide) in paragraph at lines 220--232
 
 
 [5]
-<figuras/ishikawa_p2.png, id=78, 1445.4pt x 813.0375pt>
+<figuras/ishikawa_p2.png, id=90, 1445.4pt x 813.0375pt>
 File: figuras/ishikawa_p2.png Graphic file (type png)
 <use figuras/ishikawa_p2.png>
 Package pdftex.def Info: figuras/ishikawa_p2.png  used on input line 257.
@@ -798,7 +798,111 @@ Overfull \hbox (8.68645pt too wide) in paragraph at lines 289--301
 
 [9]
 
-[10] (informe.aux
+[10]
+Underfull \hbox (badness 1655) in paragraph at lines 375--376
+\T1/lmr/m/n/12 (+20) se; plie-go téc-ni-co;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+[]|\T1/lmr/m/n/12 (+20) Plataforma MVP
+ []
+
+
+Overfull \hbox (11.58655pt too wide) in paragraph at lines 369--390
+ [][] 
+ []
+
+
+Overfull \hbox (10.64366pt too wide) in paragraph at lines 399--399
+[]|\T1/lmr/bx/n/12 (-20) Categoría| 
+ []
+
+
+Overfull \hbox (4.61642pt too wide) in paragraph at lines 399--399
+[]|\T1/lmr/bx/n/12 (-20) Cantidad/Alcance| 
+ []
+
+
+Overfull \hbox (32.47745pt too wide) in paragraph at lines 399--400
+[]|\T1/lmr/bx/n/12 (-20) Responsable/Métrica| 
+ []
+
+
+Overfull \hbox (6.66985pt too wide) in paragraph at lines 401--401
+[]|\T1/lmr/m/n/12 (-20) Materiales| 
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 401--401
+[]|\T1/lmr/m/n/12 (+20) Postes, ga-bi-ne-tes, UPS/energía,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/m/n/12 (+20) Según po-lí-gono
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 401--402
+[]|\T1/lmr/m/n/12 (+20) Uptime ener-gé-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+[]|\T1/lmr/m/n/12 (+20) Disponibilidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+\T1/lmr/m/n/12 (+20) por dis-po-si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+\T1/lmr/m/n/12 (+20) ti-vo; ta-sa de
+ []
+
+
+Overfull \hbox (7.86983pt too wide) in paragraph at lines 403--403
+[]|\T1/lmr/m/n/12 (-20) Tecnología| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/lmr/m/n/12 (+20) Licencias/servicios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+\T1/lmr/m/n/12 (+20) me-ta-da-tos com-
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 404--404
+[]|\T1/lmr/m/n/12 (+20) Jefatura de pro-yec-to, ar-qui-tec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+\T1/lmr/m/n/12 (+20) cum-pli-mien-to
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 404--405
+\T1/lmr/m/n/12 (+20) SOP; au-di-to-rías
+ []
+
+
+Overfull \hbox (11.5796pt too wide) in paragraph at lines 397--407
+ [][] 
+ []
+
+
+
+[11]
+
+[12] (informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -807,20 +911,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 1E5AE9D464DD298A96A9BD37E5FD6B2A;618.
+(rerunfilecheck)             Checksum: 00CE3087CE19608FB103FBEC5DD273CE;1341.
  ) 
 Here is how much of TeX's memory you used:
- 26375 strings out of 469941
- 498980 string characters out of 5469430
- 909321 words of memory out of 5000000
- 52538 multiletter control sequences out of 15000+600000
- 693904 words of font info for 156 fonts, out of 8000000 for 9000
+ 26399 strings out of 469941
+ 499234 string characters out of 5469430
+ 912322 words of memory out of 5000000
+ 52541 multiletter control sequences out of 15000+600000
+ 694456 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,1069b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,107p,1069b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on informe.pdf (11 pages, 443015 bytes).
+Output written on informe.pdf (13 pages, 451552 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 35375 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 35399 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757005995.80058 "c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex" "informe.pdf" "informe" 1757005997.95537 0
+["pdflatex"] 1757007207.45244 "c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex" "informe.pdf" "informe" 1757007210.00471 0
   "C:/Users/felip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756941193 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/felip/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1747930364 13157641 39d20cc8a07bc50d8db206ff644cb2f4 ""
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -186,12 +186,12 @@
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1730400552 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex" 1757005992 21555 3b8bdc65ea75e376b5b6b64ba1ffd65a ""
+  "c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex" 1757007205 25195 4105fa43fe298b2921c5eaf0d22c5ea7 ""
   "figuras/ishikawa_p1.png" 1756989378 59235 2a95917c3c88db99cdfea211e47ac487 ""
   "figuras/ishikawa_p2.png" 1756991420 190552 1da55ecc90ff214bb6e4e36f346ba784 ""
-  "informe.aux" 1757005997 1800 2bd976e4898fa2e9b628f91db29b62a2 "pdflatex"
-  "informe.out" 1757005997 618 1e5ae9d464dd298a96a9bd37e5fd6b2a "pdflatex"
-  "informe.tex" 1757005992 21555 3b8bdc65ea75e376b5b6b64ba1ffd65a ""
+  "informe.aux" 1757007209 2543 b70e002ec88a44e9b6e20cf4f1f3cfb1 "pdflatex"
+  "informe.out" 1757007209 1341 00ce3087ce19608fb103fbec5dd273ce "pdflatex"
+  "informe.tex" 1757007205 25195 4105fa43fe298b2921c5eaf0d22c5ea7 ""
   (generated)
   "informe.aux"
   "informe.log"

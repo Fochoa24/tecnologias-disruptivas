@@ -360,4 +360,73 @@ Plataforma urbana basada en estándares abiertos (p.~ej., \textit{Sentilo} para 
 \end{itemize}
 
 
+\newpage
+\section{Plan de implementación (pasos priorizados)}
+
+\begin{table}[htbp]
+\centering
+\caption{Fases y entregables para materializar la propuesta.}
+\begin{tabular}{p{0.10\linewidth} p{0.14\linewidth} p{0.46\linewidth} p{0.22\linewidth}}
+\hline
+\textbf{Fase} & \textbf{Periodo} & \textbf{Pasos priorizados} & \textbf{Entregables clave} \\
+\hline
+0 & Mes 1 &
+Línea base (delitos, TTR, falsas alarmas); inventario técnico; polígono piloto; requisitos y pruebas de interoperabilidad en compras. &
+Informe de línea base; pliego técnico; cronograma detallado. \\
+\hline
+1 & Meses 2--4 &
+Gateway y bus de eventos; integración de \(\geq\)2 fabricantes por categoría; tablero mínimo viable; telemetría de salud; capacitación inicial. &
+Plataforma MVP operativa; manuales iniciales; tablero v1. \\
+\hline
+2 & Meses 5--8 &
+Analítica de video en tiempo real; motor de correlación; calibración para reducir falsas alarmas; procedimientos 24/7 y cadena de custodia. &
+Modelos calibrados; SOPs 24/7; auditoría de evidencias. \\
+\hline
+3 & Meses 9--12 &
+Escalamiento y hardening; redundancia de conectividad/energía; formación avanzada; evaluación contra KPIs; plan de expansión. &
+Informe de resultados; plan de mejora y escalamiento. \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Cuadro de gestión de recursos}
+
+\begin{table}[htbp]
+\centering
+\caption{Recursos requeridos para el piloto y su gestión.}
+\begin{tabular}{p{0.1\linewidth} p{0.40\linewidth} p{0.22\linewidth} p{0.20\linewidth}}
+\hline
+\textbf{Categoría} & \textbf{Descripción} & \textbf{Cantidad/Alcance} & \textbf{Responsable/Métrica} \\
+\hline
+Materiales & Postes, gabinetes, UPS/energía, racks, cableado y protecciones. & Según polígono (puntos críticos) & Uptime energético; tiempo medio de reparación. \\
+Equipos & Cámaras IP 4K-IR, sensores (botón, conteo, acústicos), switches PoE, gateways, servidores/almacenamiento. & \(\sim\)X cámaras, Y sensores, Z gateways & Disponibilidad por dispositivo; tasa de fallas/mes. \\
+Tecnología & Bus de eventos, APIs, tablero unificado, analítica de video, observabilidad, IAM y seguridad. & Licencias/servicios + despliegue & Latencia \(\leq 5\) s; metadatos completos \(\geq 95\%\). \\
+Personas & Jefatura de proyecto, arquitecto/integrador, ciberseguridad, analista/IA, operadores 24/7, mantenimiento, jurídico/datos. & Roles y turnos definidos & SLA de atención; cumplimiento SOP; auditorías OK. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\section{Impacto del proyecto en la ciudadanía}
+
+\subsection*{Beneficios esperados}
+\begin{itemize}
+  \item \textbf{Seguridad y confianza}: detección y despacho más rápidos; mayor trazabilidad probatoria.
+  \item \textbf{Calidad de vida}: reducción de falsas alarmas y patrullajes innecesarios; percepción de seguridad al alza.
+  \item \textbf{Eficiencia pública}: mejor uso de recursos operativos; continuidad del comercio en zonas críticas.
+  \item \textbf{Sostenibilidad}: menor huella por optimizar desplazamientos y telegestión de iluminación.
+\end{itemize}
+
+\subsection*{Indicadores de impacto (12 meses)}
+\begin{itemize}
+  \item \textbf{TTR verificación/ despacho}: reducción \(\geq 30\%\) en el polígono piloto.
+  \item \textbf{Delitos contra la propiedad}: reducción relativa \(\geq 15\%\) vs. línea base.
+  \item \textbf{Tasa de falsas alarmas}: \(\leq 10\%\) del total de alertas.
+  \item \textbf{Percepción ciudadana}: mejora \(\geq 10\) p.p. en encuestas locales.
+  \item \textbf{Disponibilidad de plataforma}: \(\geq 95\%\) (operativa integral).
+\end{itemize}
+
+
+
+
 \end{document}
