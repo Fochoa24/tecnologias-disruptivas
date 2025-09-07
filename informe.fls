@@ -1,6 +1,6 @@
-PWD c:\Users\felip\OneDrive\Documentos\repos\tecnologias-disruptivas
+PWD c:\Users\felip\Documents\tecnologias disruptivas
 INPUT C:\Users\felip\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\felip\OneDrive\Documentos\repos\tecnologias-disruptivas\informe.tex
+INPUT c:\Users\felip\Documents\tecnologias disruptivas\informe.tex
 OUTPUT informe.log
 INPUT C:\Users\felip\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\felip\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -349,6 +349,13 @@ INPUT .\figuras\ishikawa_p2.png
 INPUT .\figuras\ishikawa_p2.png
 INPUT C:\Users\felip\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\felip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbxi10.tfm
+INPUT .\figuras\mapa-nueva-aurora.png
+INPUT .\figuras\mapa-nueva-aurora.png
+INPUT .\figuras\mapa-nueva-aurora.png
+INPUT .\figuras\mapa-nueva-aurora.png
+INPUT .\figuras\mapa-nueva-aurora.png
+INPUT .\figuras\mapa-nueva-aurora.png
+INPUT C:\Users\felip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
 INPUT informe.aux
 INPUT .\informe.out
 INPUT .\informe.out

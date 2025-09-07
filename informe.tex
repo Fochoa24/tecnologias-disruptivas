@@ -1,19 +1,17 @@
 \documentclass[12pt,a4paper]{article}
 
 % --- Paquetes base (orden recomendado) ---
-\usepackage[spanish,es-noshorthands]{babel} % <-- evita conflictos con TikZ
-\usepackage[utf8]{inputenc}                 % Con Xe/LuaLaTeX puedes omitirla
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}                        % Fuentes escalables
-\usepackage{microtype}   
-
-
+\usepackage{lmodern}
+\usepackage{microtype}
 
 \usepackage{geometry}
 \geometry{margin=2.5cm}
-\usepackage{setspace}         % Interlineado 1,15
-\usepackage{ragged2e}         % \justifying
-\usepackage{fancyhdr}         % Encabezados/pies de página
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{fancyhdr}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false}
 
@@ -23,25 +21,23 @@
 \usepackage{array}
 \usepackage{makecell}
 \usepackage[table]{xcolor}
-\usepackage[section]{placeins} % fuerza a que los floats no crucen secciones
-
+\usepackage[section]{placeins}
 
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
 
 % --- Diagramas ---
 \usepackage{tikz}
-\usetikzlibrary{arrows.meta,positioning,babel,fit,shapes.symbols, calc}
-\definecolor{becaccent}{HTML}{E84E36} % color acento (tú lo puedes cambiar)
+\usetikzlibrary{arrows.meta,positioning,babel,fit,shapes.symbols,calc}
+\definecolor{becaccent}{HTML}{E84E36}
 \tikzset{
   block/.style={draw, rounded corners, align=center, minimum height=10mm, minimum width=32mm, inner sep=3pt},
 }
 
 % --- Imágenes y figuras
-\usepackage{graphicx}     % incluir imágenes
-\usepackage{caption}      % controlar estilo de leyendas (opcional)
-\usepackage{float}        % para usar [H] (opcional)
-\graphicspath{{figuras/}} % ruta por defecto para las imágenes (opcional)
-
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\graphicspath{{figuras/}}
 
 % --- Estilo de página: número centrado abajo ---
 \pagestyle{fancy}
@@ -99,9 +95,9 @@
 
 % --- Cuerpo del informe ---
 \clearpage
-\pagenumbering{arabic}  % Numeración desde aquí
-\setstretch{1.15}       % Interlineado 1,15
-\justifying             % Texto justificado
+\pagenumbering{arabic}
+\setstretch{1.15}
+\justifying
 
 \section*{Contexto del caso — Seguridad}
 
@@ -132,12 +128,9 @@ Ante este contexto, la ciudad evalúa la adopción de tecnologías propias de la
 \end{itemize}
 
 \subsection*{Alcance del proyecto (fase piloto)}
-\textbf{Área geográfica}: distrito céntrico de alta concurrencia (aprox. 3--4 km\textsuperscript{2}), que incluye eje comercial, dos estaciones de transporte masivo y tres intersecciones críticas.
-\\
-\textbf{Horizonte temporal}: 12 meses (3 meses diseño/instalación, 6 meses operación y ajuste, 3 meses evaluación).
-\\
-\textbf{Cobertura funcional}: integración de videovigilancia y sensores urbanos existentes, analítica de video en tiempo real para detección de eventos de riesgo, y tablero operativo para coordinación interinstitucional.
-\\
+\textbf{Área geográfica}: distrito céntrico de alta concurrencia (aprox. 3--4 km\textsuperscript{2}), que incluye eje comercial, dos estaciones de transporte masivo y tres intersecciones críticas.\\
+\textbf{Horizonte temporal}: 12 meses (3 meses diseño/instalación, 6 meses operación y ajuste, 3 meses evaluación).\\
+\textbf{Cobertura funcional}: integración de videovigilancia y sensores urbanos existentes, analítica de video en tiempo real para detección de eventos de riesgo, y tablero operativo para coordinación interinstitucional.\\
 \textbf{Procesos incluidos}: monitoreo preventivo, verificación de incidentes, despacho coordinado, preservación de evidencia digital y reportabilidad.
 
 \subsection*{Fuera de alcance}
@@ -176,13 +169,12 @@ Ante este contexto, la ciudad evalúa la adopción de tecnologías propias de la
     \item \textit{Salvaguardas}: evaluación de impacto en privacidad, anonimización cuando corresponda, controles de acceso y auditoría, cifrado extremo a extremo, políticas de retención y uso proporcional de la información.
 \end{itemize}
 
-
 \newpage
-
 \section{Mapa de problemas (Causa - Consecuencias)}
+
 \subsection*{Problema 1: Robos en vía pública}
-\textbf{Robos en vía pública} en zonas de alta influencia y nodos de transporte, con afectación directa a peatones y comercios. Vease la figura \ref{fig:mapa-problemas-seguridad}
-\begin{figure}[htbp] % usa [H] si quieres fijarla exactamente aquí
+\textbf{Robos en vía pública} en zonas de alta influencia y nodos de transporte, con afectación directa a peatones y comercios. Véase la figura \ref{fig:mapa-problemas-seguridad}.
+\begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth, keepaspectratio]{ishikawa_p1.png}
   \caption{Diagrama de Ishikawa del problema \textit{Robos en vía pública}.}
@@ -197,7 +189,7 @@ Ante este contexto, la ciudad evalúa la adopción de tecnologías propias de la
     \item \textit{Infraestructura urbana subóptima}: Iluminación deficiente, mobiliario y arbolado que generan puntos ciegos.
 \end{itemize}
 
-\subsection*{Causa subyacentes}
+\subsection*{Causas subyacentes}
 \begin{itemize}
     \item \textit{Estándares y gobierno de datos insuficientes}: ausencia de APIs y protocolos abiertos para intercambio seguro.
     \item \textit{Capacidades operativas dispares}: roles, turnos y procedimientos no unificados entre vigilancia, monitoreo y despacho.
@@ -237,7 +229,7 @@ Mediciones & Falta de KPIs operativos; alto nivel de falsas alarmas & Mejora con
     \item \textbf{Tiempo medio de verificación y despacho (TTR)} desde la alerta hasta el envío de recurso: disminución de \(\geq 30\%\).
     \item \textbf{Disponibilidad de la plataforma integrada} (cámaras, sensores, analítica y tablero): \(\geq 95\%\).
     \item \textbf{Detección automática de incidentes relevantes} (analítica de video/sensores): \(\geq 60\%\) del total de incidentes registrados.
-    \item \textbf{Tasa de falsas alarmas} (proporción sobre alertas totales): reducción a \(\leq 10\%\) mediante calibración y verificación.
+    \item \textbf{Tasa de falsas alarmas}: reducción a \(\leq 10\%\) mediante calibración y verificación.
 \end{itemize}
 
 \subsection*{Supuestos críticos}
@@ -247,42 +239,18 @@ Mediciones & Falta de KPIs operativos; alto nivel de falsas alarmas & Mejora con
     \item Coordinación interinstitucional efectiva para operación 24/7 y mantenimiento preventivo.
 \end{itemize}
 
-
 \subsection*{Problema 2: Baja integración operativa de cámaras y sensores}
 
 \noindent La infraestructura de videovigilancia y sensorización urbana opera de forma fragmentada, con dispositivos heterogéneos y flujos de datos dispares. La ausencia de interoperabilidad y estandarización limita la detección temprana, la trazabilidad de incidentes y la coordinación de la respuesta.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\linewidth]{ishikawa_p2.png} % nombre actualizado
+  \includegraphics[width=\linewidth]{ishikawa_p2.png}
   \caption{Diagrama de Ishikawa — Problema 2: Baja integración operativa de cámaras y sensores.}
   \label{fig:ishikawa-p2}
 \end{figure}
 
-\subsection*{Causas inmediatas}
-\begin{itemize}
-    \item \textit{Fragmentación tecnológica}: dispositivos de distintos fabricantes sin adopción consistente de estándares abiertos (p.\,ej., ONVIF, APIs REST).
-    \item \textit{Falta de integración}: inexistencia de un bus/middleware que unifique ingestión, normalización y distribución de eventos.
-    \item \textit{Conectividad y energía irregulares}: enlaces sin redundancia y sin telemetría de salud en tiempo real.
-    \item \textit{Procesos manuales}: verificación y correlación dependientes del operador, con alta variabilidad.
-\end{itemize}
-
-\subsection*{Causas subyacentes}
-\begin{itemize}
-    \item \textit{Gobierno de datos insuficiente}: políticas débiles de calidad, seguridad, retención y auditoría.
-    \item \textit{Contratación por silos}: adquisiciones sin requisitos de interoperabilidad ni pruebas cruzadas.
-    \item \textit{Observabilidad limitada}: carencia de métricas, logs y trazas end-to-end.
-    \item \textit{Mantenimiento correctivo predominante}: inventario y versionamiento desactualizados.
-\end{itemize}
-
-\subsection*{Consecuencias}
-\begin{itemize}
-    \item \textit{Latencia operacional}: tiempos altos de detección y verificación con pérdida de ventanas de intervención.
-    \item \textit{Baja trazabilidad}: dificultades probatorias por registros inconexos y cadena de custodia débil.
-    \item \textit{Uso subóptimo de recursos}: despacho tardío y fatiga de operadores por falsas alarmas.
-\end{itemize}
-
-\subsection*{Relación causa–efecto (síntesis)}
+\subsection*{Causas e impactos (síntesis)}
 \begin{table}[htbp]
 \centering
 \caption{Vinculación de causas con efectos del problema “Baja integración operativa”.}
@@ -294,7 +262,7 @@ Tecnología & Sistemas heterogéneos, sin perfiles ONVIF ni APIs alineadas & Imp
 Métodos & Verificación manual y scripts ad-hoc & Variabilidad operativa; tiempos de respuesta altos \\
 Mano de obra & Capacitación dispar; dependencia del operador & Mayor tasa de error y falsas alarmas \\
 Materiales & Falta de respaldo eléctrico y racks adecuados & Caídas de servicio; pérdida de datos \\
-Medio ambiente & Interferencias/saturación en tramos inalámbricos & Pérdida de paquetes; jitter en video/eventos \\
+Medio ambiente & Interferencias/saturación en tramos inalámbricos & Pérdida de paquetes; \textit{jitter} en video/eventos \\
 Mediciones & Sin KPIs ni telemetría de salud & Mejora continua limitada; fallas no detectadas \\
 \hline
 \end{tabular}
@@ -317,48 +285,45 @@ Mediciones & Sin KPIs ni telemetría de salud & Mejora continua limitada; fallas
     \item Coordinación operativa 24/7 y mantenimiento preventivo programado.
 \end{itemize}
 
-
+% ----------------------- MEJORA DE BENCHMARK NUMÉRICO -----------------------
 \section{Ciudad referente}
-
 \subsection*{1. Ciudad estudiada}
-\textbf{Barcelona, España.} Ciudad europea pionera en infraestructura digital urbana, gobierno de datos y despliegues de sensorización y videovigilancia con analítica.
+\textbf{Barcelona, España.} Pionera en arquitectura digital urbana, plataforma IoT \textit{Sentilo} y despliegues de sensorización, alumbrado y videovigilancia.
 
 \subsection*{2. Tecnología concreta aplicada}
-Plataforma urbana basada en estándares abiertos (p.~ej., \textit{Sentilo} para IoT) que integra:
+Plataforma urbana basada en estándares abiertos (\textit{Sentilo}) que integra:
 \begin{itemize}
   \item Red de \textit{CCTV} con cámaras IP y perfiles ONVIF, enlazada a centros de control operativos.
-  \item Sensores urbanos (iluminación telegestionada, aforo, acústica, calidad de aire, botonería de alerta).
-  \item Analítica de video en tiempo real (detección de intrusión/merodeo, objetos abandonados, lectura de placas).
-  \item Tableros operativos y geoespaciales para correlación evento--ubicación--recurso y despacho coordinado.
-  \item Conectividad sobre fibra y redes móviles, con telemetría de salud para garantizar disponibilidad.
+  \item Sensores urbanos (iluminación telegestionada, aforo, acústica, calidad de aire, riego).
+  \item Analítica en tiempo real y tableros geoespaciales para correlación evento--ubicación--recurso.
+  \item Conectividad sobre fibra y redes móviles; telemetría de salud para garantizar disponibilidad.
 \end{itemize}
+\noindent(\textit{Base tecnológica:} \cite{sentiloCaseStudy,ciscoBarcelona})
 
-\subsection*{3. Resultados medibles reportados}
+\subsection*{3. Resultados medibles reportados (benchmark)}
 \begin{itemize}
-  \item \textit{Operación}: incremento sostenido de disponibilidad de cámaras y reducción de tiempos de reparación al consolidar inventario y mantenimiento preventivo.
-  \item \textit{Respuesta}: disminución de tiempos de verificación y despacho en zonas priorizadas gracias a la correlación automática (video + posición + recurso).
-  \item \textit{Eficiencia energética}: ahorros significativos en alumbrado público por LED y telegestión (del orden de decenas de puntos porcentuales en áreas intervenidas).
-  \item \textit{Investigación}: mayor proporción de incidentes con evidencia audiovisual útil y cadena de custodia digital.
+  \item \textbf{Ahorro energético en alumbrado público:} \(\sim 30\%\) de reducción del consumo gracias a LED + telegestión en el sistema urbano de iluminación \cite{harvardAsh}. 
+  \item \textbf{Gestión del agua:} reportes de ahorro del orden de \(\sim\)US\$58 millones por iniciativas IoT (p.\,ej., riego inteligente, medición y control) \cite{harvardAsh}. 
+  \item \textbf{Ingresos de estacionamiento:} incremento aproximado de \(\sim\)US\$50 millones/año atribuible a soluciones de \textit{smart parking} y gestión IoT \cite{harvardAsh}.
+  \item \textbf{Magnitud del sistema de alumbrado y consumo:} >146\,000 puntos de luz; \(\sim 82{,}000\) MWh/año (\(\approx 20\%\) del consumo energético municipal), lo que contextualiza el potencial de ahorro por telegestión \cite{ajuntamentStreetLighting}. 
+  \item \textbf{Evolución reciente:} plan de renovación para aumentar LED del 35\% al 50\% y avanzar hacia \textbf{gestión remota 100\%} del alumbrado \cite{ajuntamentRenewLighting}.
 \end{itemize}
 
 \subsection*{4. Desafíos o riesgos observados}
 \begin{itemize}
-  \item Interoperabilidad y dependencia de proveedores: necesidad de exigir APIs abiertas y pruebas cruzadas.
+  \item Interoperabilidad y dependencia de proveedores: exigir APIs abiertas y pruebas cruzadas (\cite{sentiloCaseStudy}).
   \item Continuidad operativa: vandalismo, energía y tramos con conectividad no redundada.
   \item Privacidad y ética: tratamiento proporcional de datos personales y mitigación de sesgos algorítmicos.
   \item Sostenibilidad: costos de mantenimiento/actualización y formación continua de operadores.
 \end{itemize}
 
-\subsection*{Adaptación al caso \textit{Nueva Aurora} (contexto latinoamericano)}
+\subsection*{Adaptación al caso \textit{Nueva Aurora}}
 \begin{itemize}
-  \item \textbf{Polígono piloto y línea base}: seleccionar zonas críticas y medir tasas de delitos, TTR y falsas alarmas previas a la intervención.
-  \item \textbf{Interoperabilidad desde la compra}: requerir perfiles ONVIF, \textit{Sentilo}/APIs abiertas y pruebas de integración en licitaciones.
-  \item \textbf{Middleware y tablero}: priorizar un bus de eventos y un tablero único con correlación video--evento--recurso.
-  \item \textbf{Conectividad y energía}: fibra/5G con QoS y respaldo eléctrico en puntos críticos; telemetría de salud 24/7.
-  \item \textbf{Gobierno de datos}: políticas de minimización, retención, auditoría y evaluación de impacto en privacidad.
-  \item \textbf{Participación ciudadana}: botones de alerta, campañas de uso responsable y mecanismos de transparencia.
+  \item \textbf{Línea base y KPIs:} medición inicial de delitos, TTR, falsas alarmas y disponibilidad, para contrastar reducciones/ahorros esperados siguiendo el enfoque de Barcelona.
+  \item \textbf{Interoperabilidad desde la compra:} perfiles ONVIF, \textit{Sentilo}/APIs abiertas y pruebas de integración en licitaciones \cite{sentiloCaseStudy}.
+  \item \textbf{Telegestión de iluminación:} adopción de LED + control punto a punto para perseguir ahorros cercanos a los observados (\(\sim 30\%\)) \cite{harvardAsh,ajuntamentStreetLighting}.
+  \item \textbf{Riego inteligente y agua:} sensorización y control remoto de riego para replicar ahorros operacionales en agua \cite{ciscoBarcelona}.
 \end{itemize}
-
 
 \newpage
 \section{Plan de implementación (pasos priorizados)}
@@ -383,7 +348,7 @@ Analítica de video en tiempo real; motor de correlación; calibración para red
 Modelos calibrados; SOPs 24/7; auditoría de evidencias. \\
 \hline
 3 & Meses 9--12 &
-Escalamiento y hardening; redundancia de conectividad/energía; formación avanzada; evaluación contra KPIs; plan de expansión. &
+Escalamiento y \textit{hardening}; redundancia de conectividad/energía; formación avanzada; evaluación contra KPIs; plan de expansión. &
 Informe de resultados; plan de mejora y escalamiento. \\
 \hline
 \end{tabular}
@@ -398,14 +363,13 @@ Informe de resultados; plan de mejora y escalamiento. \\
 \hline
 \textbf{Categoría} & \textbf{Descripción} & \textbf{Cantidad/Alcance} & \textbf{Responsable/Métrica} \\
 \hline
-Materiales & Postes, gabinetes, UPS/energía, racks, cableado y protecciones. & Según polígono (puntos críticos) & Uptime energético; tiempo medio de reparación. \\
+Materiales & Postes, gabinetes, UPS/energía, racks, cableado y protecciones. & Según polígono (puntos críticos) & \textit{Uptime} energético; tiempo medio de reparación. \\
 Equipos & Cámaras IP 4K-IR, sensores (botón, conteo, acústicos), switches PoE, gateways, servidores/almacenamiento. & \(\sim\)X cámaras, Y sensores, Z gateways & Disponibilidad por dispositivo; tasa de fallas/mes. \\
 Tecnología & Bus de eventos, APIs, tablero unificado, analítica de video, observabilidad, IAM y seguridad. & Licencias/servicios + despliegue & Latencia \(\leq 5\) s; metadatos completos \(\geq 95\%\). \\
 Personas & Jefatura de proyecto, arquitecto/integrador, ciberseguridad, analista/IA, operadores 24/7, mantenimiento, jurídico/datos. & Roles y turnos definidos & SLA de atención; cumplimiento SOP; auditorías OK. \\
 \hline
 \end{tabular}
 \end{table}
-
 
 \section{Impacto del proyecto en la ciudadanía}
 
@@ -426,7 +390,100 @@ Personas & Jefatura de proyecto, arquitecto/integrador, ciberseguridad, analista
   \item \textbf{Disponibilidad de plataforma}: \(\geq 95\%\) (operativa integral).
 \end{itemize}
 
+\newpage
+% --- Implementación del eje Seguridad ---------------------------------------
+\section{Implementación del eje Seguridad}
+\label{sec:impl-seguridad}
 
+\subsection{Alcance y criterios de ubicación}
+El despliegue se concentra en el polígono céntrico de Nueva Aurora, priorizando el \textbf{eje comercial}, las \textbf{estaciones Norte/Sur} y los \textbf{accesos viales}. La ubicación de cada dispositivo responde a: (i) afluencia peatonal/vehicular y reportes de incidentes, (ii) visibilidad y cobertura sin puntos ciegos, (iii) disponibilidad eléctrica y de postes/soportes, (iv) factibilidad de \textit{backhaul} (fibra/5G). La explicación siguiente referencia el mapa limpio (ver Fig.~\ref{fig:mapa-nueva-aurora}).
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{mapa-nueva-aurora.png}
+  \caption{Mapa con puntos de control aplicados a las soluciones propuestas.}
+  \label{fig:mapa-nueva-aurora}
+\end{figure}
+
+\subsection{Despliegue por componente (según marcadores del mapa)}
+\begin{enumerate}
+  \item \textbf{CCTV + IA (cruces y estaciones).} En los cruces A, B y C y en ambas estaciones se instalan cámaras fijas (cobertura de calzada y banquetas) y, donde aplique, una PTZ para seguimiento. Alimentación \textit{PoE} desde gabinetes cercanos; el \textbf{gateway/edge (6)} aplica analítica (merodeo, objetos abandonados, cruce en contrasentido) y envía eventos al COC (7). Se calibra zona/máscaras y se define repositorio/retención.
+  \item \textbf{LPR/ANPR (accesos).} Cámaras de lectura de patentes en accesos oriente/poniente y salida sur, con iluminación IR y ángulo controlado. Generan metadatos (placa, fecha/hora, sentido) que se cruzan con alertas y listas de interés en el COC.
+  \item \textbf{Botones de alerta SOS (paraderos/plazas).} Tótems con botón, cámara integrada, altavoz y baliza. Conexión \textit{PoE} o 5G; al activarse abren incidente en la consola del COC con \textbf{geolocalización} y previsualización de video.
+  \item \textbf{Iluminación LED telegestionada (eje comercial).} Reemplazo/adecuación de luminarias por LED con control punto a punto (nodo NEMA/Zhaga y CMS). Escenas nocturnas con \textit{dimming} adaptativo (mayor nivel en cruces/paraderos), telemetría de fallas y base para sensores futuros.
+  \item \textbf{Sensores acústicos (anomalías).} Malla de 2--3 nodos que triangulan eventos de \textbf{disparos/roturas} en el corredor. Disparan ticket automático con \textbf{verificación cruzada} en cámaras cercanas para reducir falsas alarmas.
+  \item \textbf{Gateways/Edge (IoT/Video).} Gabinetes con \textit{switch} PoE, equipo industrial (CPU/GPU ligera) y \textbf{UPS}. Funciones: agregación de cámaras/sensores, \textit{buffering} local, analítica en borde y publicación de eventos (MQTT/REST) hacia la plataforma central.
+  \item \textbf{COC -- Centro de Operaciones.} Sala con \textit{video wall}, VMS/analítica, CAD para despacho, gestión de evidencias (cadena de custodia), y panel de KPIs. Roles: operador 24/7, supervisor y analista. Protocolos de atención, escalamiento y privacidad.
+  \item \textbf{Backhaul Fibra + 5G.} Tramo principal sobre el eje y vertical de refuerzo; arquitectura en \textbf{anillo} con \textit{switches} L2/L3 y VLAN de seguridad. 5G en estaciones como redundancia de subida; microondas donde la fibra no esté disponible.
+\end{enumerate}
+
+\subsection{Arquitectura y flujo de datos}
+Dispositivo (1--5) \(\rightarrow\) \textbf{Edge (6)} (normalización/analítica/\textit{buffer}) \(\rightarrow\) \textbf{Backhaul (8)} \(\rightarrow\) \textbf{Plataforma} (VMS/EMS/CMS) \(\rightarrow\) \textbf{COC (7)} \(\rightarrow\) Despacho (policía/seguridad municipal). Se registran \textit{logs} y evidencias con control de acceso y auditoría.
+
+\subsection{Operación, privacidad y mantenimiento}
+\begin{itemize}
+  \item \textbf{Operación:} monitoreo 24/7, verificación en \(\leq 2\) min, despacho coordinado, auditoría semanal de alarmas.
+  \item \textbf{Privacidad:} señalética visible, enmascaramiento de zonas privadas, retención definida (p.\,ej., 15--30 días), control de accesos y registro de consultas.
+  \item \textbf{Mantenimiento:} preventivo trimestral (limpieza ópticas, \textit{firmware}, recalibración analítica), correctivo con SLA, stock crítico de repuestos.
+\end{itemize}
+
+\subsection{Indicadores de éxito (KPI)}
+\noindent \textit{Uptime} de plataforma y dispositivos; tiempo de detección, verificación y despacho; reducción de incidentes en zona priorizada; \% de falsas alarmas; incidentes resueltos con evidencia útil; ahorro energético por telegestión.
+
+\section*{Glosario de Términos y Siglas}
+\begin{description}
+\item[APIs REST] Interfaces HTTP siguiendo principios REST.
+\item[CCTV + IA] Videovigilancia con analítica inteligente.
+\item[COC] Centro de Operaciones de Control.
+\item[Gateways / Edge] Agregan y procesan datos localmente.
+\item[IAM] Gestión de identidades y accesos.
+\item[KPIs] Indicadores clave de rendimiento.
+\item[LPR / ANPR] Reconocimiento automático de matrículas.
+\item[ONVIF] Estándar de interoperabilidad en videovigilancia IP.
+\item[QoS] Calidad de servicio de red.
+\item[SLA] Acuerdo de nivel de servicio.
+\item[TTR] Tiempo de resolución (o de verificación/ despacho, según se use).
+\item[UPS] Sistema de alimentación ininterrumpida.
+\end{description}
+
+% ----------------------------- REFERENCIAS -----------------------------------
+\section*{Referencias}
+\begin{thebibliography}{99}
+
+\bibitem{harvardAsh}
+Adler, L. (2016, 18 de febrero).
+\textit{How Smart City Barcelona Brought the Internet of Things to Life}.
+Data-Smart City Solutions, Harvard Kennedy School.
+Disponible en:
+\url{https://datasmart.hks.harvard.edu/news/article/how-smart-city-barcelona-brought-the-internet-of-things-to-life-789}
+
+\bibitem{ajuntamentStreetLighting}
+Ajuntament de Barcelona (s.\,f.).
+\textit{Street lighting management}.
+Área de Urbanismo, Transición Ecológica, Servicios Urbanos y Vivienda.
+Disponible en:
+\url{https://ajuntament.barcelona.cat/ecologiaurbana/en/services/the-city-works/maintenance-of-public-areas/energy-management/street-lighting-management}
+
+\bibitem{ajuntamentRenewLighting}
+Ajuntament de Barcelona (2024, 14 de julio).
+\textit{More work to renew and improve lighting in the city}.
+Disponible en:
+\url{https://www.barcelona.cat/infobarcelona/en/tema/urban-planning-and-infrastructures/more-work-to-renew-and-improve-lighting-in-the-city_1419476.html}
+
+\bibitem{ciscoBarcelona}
+Cisco (2015).
+\textit{IoE-Driven Smart City Barcelona Initiative Cuts Water Bills, Increases Parking Revenues, and Creates Jobs}.
+Perfil de jurisdicción.
+Disponible en:
+\url{https://www.cisco.com/c/dam/m/en_us/ioe/public_sector/pdfs/jurisdictions/Barcelona_Jurisdiction_Profile_final.pdf}
+
+\bibitem{sentiloCaseStudy}
+Bain, M. (2014).
+\textit{Sentilo Case Study}.
+Interoperable Europe.
+Disponible en:
+\url{https://interoperable-europe.ec.europa.eu/sites/default/files/document/2014-06/SENTILO%20case_joinup_v_1%202.pdf}
+
+\end{thebibliography}
 
 \end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.22)  4 SEP 2025 13:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.21)  7 SEP 2025 01:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex
-(c:/Users/felip/OneDrive/Documentos/repos/tecnologias-disruptivas/informe.tex
+**"c:/Users/felip/Documents/tecnologias disruptivas/informe.tex"
+(c:/Users/felip/Documents/tecnologias disruptivas/informe.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
 (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -267,15 +267,15 @@ with kernel methods
 \Fld@listcount=\count298
 \c@bookmark@seq@number=\count299
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip80
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 18.
+Package hyperref Info: Option `colorlinks' set `false' on input line 16.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen161
@@ -578,7 +578,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks42
 \@floatcapt=\box68
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 78.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 74.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -592,33 +592,33 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
-LaTeX Info: Redefining \microtypecontext on input line 78.
-Package microtype Info: Applying patch `item' on input line 78.
-Package microtype Info: Applying patch `toc' on input line 78.
-Package microtype Info: Applying patch `eqnum' on input line 78.
-Package microtype Info: Applying patch `footnote' on input line 78.
-Package microtype Info: Applying patch `verbatim' on input line 78.
-LaTeX Info: Redefining \microtypesetup on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \microtypecontext on input line 74.
+Package microtype Info: Applying patch `item' on input line 74.
+Package microtype Info: Applying patch `toc' on input line 74.
+Package microtype Info: Applying patch `eqnum' on input line 74.
+Package microtype Info: Applying patch `footnote' on input line 74.
+Package microtype Info: Applying patch `verbatim' on input line 74.
+LaTeX Info: Redefining \microtypesetup on input line 74.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -666,7 +666,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 74.
 (informe.out) (informe.out)
 \@outlinefile=\write4
 \openout4 = `informe.out'.
@@ -693,29 +693,29 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 95.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 91.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 95.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 91.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 95.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 91.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 95.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 91.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 95.
+(Font)              <14.4> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 95.
+(Font)              <10> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 95.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 95.
+(Font)              <7> on input line 91.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 91.
  (C:\Users\felip\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -733,176 +733,258 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 135.
+(Font)              <12> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 135.
+(Font)              <8> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 135.
+(Font)              <6> on input line 131.
 
 
 [2{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
 [3]
-<figuras/ishikawa_p1.png, id=71, 737.75626pt x 416.30531pt>
+<figuras/ishikawa_p1.png, id=95, 737.75626pt x 416.30531pt>
 File: figuras/ishikawa_p1.png Graphic file (type png)
 <use figuras/ishikawa_p1.png>
-Package pdftex.def Info: figuras/ishikawa_p1.png  used on input line 187.
+Package pdftex.def Info: figuras/ishikawa_p1.png  used on input line 179.
 (pdftex.def)             Requested size: 455.24411pt x 256.88698pt.
 
 
 [4 <./figuras/ishikawa_p1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []|\T1/lmr/m/n/12 (+20) Heterogeneidad de cá-ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 \T1/lmr/m/n/12 (+20) ras/sensores; sin co-rre-la-ción
  []
 
 
-Overfull \hbox (8.68645pt too wide) in paragraph at lines 220--232
+Overfull \hbox (8.68645pt too wide) in paragraph at lines 212--224
  [][] 
  []
 
 
 
 [5]
-<figuras/ishikawa_p2.png, id=90, 1445.4pt x 813.0375pt>
+<figuras/ishikawa_p2.png, id=114, 1445.4pt x 813.0375pt>
 File: figuras/ishikawa_p2.png Graphic file (type png)
 <use figuras/ishikawa_p2.png>
-Package pdftex.def Info: figuras/ishikawa_p2.png  used on input line 257.
+Package pdftex.def Info: figuras/ishikawa_p2.png  used on input line 248.
 (pdftex.def)             Requested size: 455.24411pt x 256.07095pt.
 
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 []|\T1/lmr/m/n/12 (+20) Variabilidad ope-ra-ti-va;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 \T1/lmr/m/n/12 (+20) tiem-pos de res-pues-ta
  []
 
 
-Overfull \hbox (8.68645pt too wide) in paragraph at lines 289--301
+Overfull \hbox (8.68645pt too wide) in paragraph at lines 257--269
  [][] 
  []
 
 
 
+[6{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+
 [7 <./figuras/ishikawa_p2.png (PNG copy)>]
 
-[8{C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+[8]
 
 [9]
-
-[10]
-Underfull \hbox (badness 1655) in paragraph at lines 375--376
+Underfull \hbox (badness 1655) in paragraph at lines 340--341
 \T1/lmr/m/n/12 (+20) se; plie-go téc-ni-co;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 []|\T1/lmr/m/n/12 (+20) Plataforma MVP
  []
 
 
-Overfull \hbox (11.58655pt too wide) in paragraph at lines 369--390
+Overfull \hbox (11.58655pt too wide) in paragraph at lines 334--355
  [][] 
  []
 
 
-Overfull \hbox (10.64366pt too wide) in paragraph at lines 399--399
+Overfull \hbox (10.64366pt too wide) in paragraph at lines 364--364
 []|\T1/lmr/bx/n/12 (-20) Categoría| 
  []
 
 
-Overfull \hbox (4.61642pt too wide) in paragraph at lines 399--399
+Overfull \hbox (4.61642pt too wide) in paragraph at lines 364--364
 []|\T1/lmr/bx/n/12 (-20) Cantidad/Alcance| 
  []
 
 
-Overfull \hbox (32.47745pt too wide) in paragraph at lines 399--400
+Overfull \hbox (32.47745pt too wide) in paragraph at lines 364--365
 []|\T1/lmr/bx/n/12 (-20) Responsable/Métrica| 
  []
 
 
-Overfull \hbox (6.66985pt too wide) in paragraph at lines 401--401
+Overfull \hbox (6.66985pt too wide) in paragraph at lines 366--366
 []|\T1/lmr/m/n/12 (-20) Materiales| 
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 401--401
+Underfull \hbox (badness 8019) in paragraph at lines 366--366
 []|\T1/lmr/m/n/12 (+20) Postes, ga-bi-ne-tes, UPS/energía,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 []|\T1/lmr/m/n/12 (+20) Según po-lí-gono
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 401--402
-[]|\T1/lmr/m/n/12 (+20) Uptime ener-gé-ti-
+Underfull \hbox (badness 2134) in paragraph at lines 366--367
+[]|\T1/lmr/m/it/12 (+20) Uptime \T1/lmr/m/n/12 (+20) ener-gé-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 []|\T1/lmr/m/n/12 (+20) Disponibilidad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 \T1/lmr/m/n/12 (+20) por dis-po-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 \T1/lmr/m/n/12 (+20) ti-vo; ta-sa de
  []
 
 
-Overfull \hbox (7.86983pt too wide) in paragraph at lines 403--403
+Overfull \hbox (7.86983pt too wide) in paragraph at lines 368--368
 []|\T1/lmr/m/n/12 (-20) Tecnología| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/lmr/m/n/12 (+20) Licencias/servicios
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 \T1/lmr/m/n/12 (+20) me-ta-da-tos com-
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 404--404
+Underfull \hbox (badness 6236) in paragraph at lines 369--369
 []|\T1/lmr/m/n/12 (+20) Jefatura de pro-yec-to, ar-qui-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T1/lmr/m/n/12 (+20) cum-pli-mien-to
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 404--405
+Underfull \hbox (badness 5985) in paragraph at lines 369--370
 \T1/lmr/m/n/12 (+20) SOP; au-di-to-rías
  []
 
 
-Overfull \hbox (11.5796pt too wide) in paragraph at lines 397--407
+Overfull \hbox (11.5796pt too wide) in paragraph at lines 362--372
  [][] 
  []
 
 
 
-[11]
+[10]
 
-[12] (informe.aux
+[11]
+<figuras/mapa-nueva-aurora.png, id=176, 2007.5pt x 1003.75pt>
+File: figuras/mapa-nueva-aurora.png Graphic file (type png)
+<use figuras/mapa-nueva-aurora.png>
+Package pdftex.def Info: figuras/mapa-nueva-aurora.png  used on input line 403.
+(pdftex.def)             Requested size: 455.24411pt x 227.61066pt.
+
+
+[12 <./figuras/mapa-nueva-aurora.png (PNG copy)>]
+
+[13]
+Underfull \hbox (badness 2277) in paragraph at lines 454--459
+[]\T1/lmr/m/n/12 (+20) Adler, L. (2016, 18 de fe-bre-ro). \T1/lmr/m/it/12 (+20) How Smart City Bar-ce-lo-na Brought the
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 454--459
+\T1/lmr/m/it/12 (+20) In-ter-net of Things to Li-fe\T1/lmr/m/n/12 (+20) . Data-Smart City So-lu-tions, Har-vard Ken-nedy
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 454--459
+\T1/lmr/m/n/12 (+20) School. Dis-po-ni-ble en: []$\T1/lmtt/m/n/12 https : / / datasmart . hks . harvard . edu / news / article /
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 461--466
+[]\T1/lmr/m/n/12 (+20) Ajuntament de Bar-ce-lo-na (s.f.). \T1/lmr/m/it/12 (+20) Street ligh-ting ma-na-ge-ment\T1/lmr/m/n/12 (+20) . Área de Ur-
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 461--466
+\T1/lmr/m/n/12 (+20) ba-nis-mo, Tran-si-ción Eco-ló-gi-ca, Ser-vi-cios Ur-ba-nos y Vi-vien-da. Dis-po-ni-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--466
+\T1/lmr/m/n/12 (+20) en: []$\T1/lmtt/m/n/12 https : / / ajuntament . barcelona . cat / ecologiaurbana / en / services /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--466
+\T1/lmtt/m/n/12 the-[]city-[]works / maintenance-[]of-[]public-[]areas / energy-[]management /
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 468--472
+[]\T1/lmr/m/n/12 (+20) Ajuntament de Bar-ce-lo-na (2024, 14 de ju-lio). \T1/lmr/m/it/12 (+20) Mo-re work to re-new and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
+\T1/lmr/m/it/12 (+20) im-pro-ve ligh-ting in the city\T1/lmr/m/n/12 (+20) . Dis-po-ni-ble en: []$\T1/lmtt/m/n/12 https : / / www . barcelona .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
+\T1/lmtt/m/n/12 cat / infobarcelona / en / tema / urban-[]planning-[]and-[]infrastructures /
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 474--479
+[]\T1/lmr/m/n/12 (+20) Cisco (2015). \T1/lmr/m/it/12 (+20) IoE-Driven Smart City Bar-ce-lo-na Initia-ti-ve Cuts Wa-ter Bills,
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 474--479
+\T1/lmr/m/it/12 (+20) In-crea-ses Par-king Re-ve-nues, and Crea-tes Jobs\T1/lmr/m/n/12 (+20) . Per-fil de ju-ris-dic-ción. Dis-
+ []
+
+
+
+[14]
+Underfull \hbox (badness 6268) in paragraph at lines 481--486
+[]\T1/lmr/m/n/12 (+20) Bain, M. (2014). \T1/lmr/m/it/12 (+20) Sen-ti-lo Ca-se Study\T1/lmr/m/n/12 (+20) . In-ter-ope-ra-ble Eu-ro-pe. Dis-po-ni-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--486
+\T1/lmr/m/n/12 (+20) en: []$\T1/lmtt/m/n/12 https : / / interoperable-[]europe . ec . europa . eu / sites / default / files /
+ []
+
+
+
+[15] (informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -911,20 +993,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 00CE3087CE19608FB103FBEC5DD273CE;1341.
+(rerunfilecheck)             Checksum: EA96E72CE21F2AE3A458A9BD9AB7C53C;2813.
  ) 
 Here is how much of TeX's memory you used:
- 26399 strings out of 469941
- 499234 string characters out of 5469430
- 912322 words of memory out of 5000000
- 52541 multiletter control sequences out of 15000+600000
- 694456 words of font info for 162 fonts, out of 8000000 for 9000
+ 26464 strings out of 469941
+ 500289 string characters out of 5469430
+ 912656 words of memory out of 5000000
+ 52571 multiletter control sequences out of 15000+600000
+ 695388 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,13n,107p,1069b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,107p,1055b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on informe.pdf (13 pages, 451552 bytes).
+Output written on informe.pdf (16 pages, 2238678 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 35399 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 35964 words of extra memory for PDF output out of 42996 (max. 10000000)
 
